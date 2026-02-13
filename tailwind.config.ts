@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['DM Sans', 'sans-serif'],
+        serif: ['DM Serif Display', 'serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +61,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        inkwell: "hsl(var(--inkwell))",
+        lunar: "hsl(var(--lunar))",
+        brulee: "hsl(var(--brulee))",
+        lait: "hsl(var(--lait))",
+        "priority-high": "hsl(var(--priority-high))",
+        "priority-medium": "hsl(var(--priority-medium))",
+        "priority-low": "hsl(var(--priority-low))",
       },
       borderRadius: {
         lg: "var(--radius)",
